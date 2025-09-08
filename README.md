@@ -36,8 +36,3 @@ The app will have 4–5 screens including a splash, list, search, booking screen
 - Show the information selected in booking.
 - Display a **barcode** for the booked ticket.
 
----
-
-## 🔹 API Endpoints (TMDB Free API)
-
-- **List Movies**  
