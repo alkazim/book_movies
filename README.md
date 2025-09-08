@@ -1,16 +1,43 @@
-# book_movies
+# 🎬 Book Movies App
 
-A new Flutter project.
+A simple Flutter app to explore movies using the **TMDB (The Movie Database) API** (free and open).
 
-## Getting Started
+The app will have 4–5 screens including a splash, list, search, booking screen, and details.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🔹 Features & Screens
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. Splash Screen
+- App logo with a small animation.
+- Navigates to home after 2 seconds.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2. Home Screen & Listing (Movies List)
+- Search bar for entering a movie title.
+- Fetch movies from **OMDb API**.
+- Display results in a scrollable list/grid with:
+  - Poster (or placeholder if not available)
+  - Title
+  - Year
+- Pagination support (`page=1,2,3...`) since OMDb only returns 10 results per page.
+
+### 3. Movie Details Screen
+- On tapping a movie, navigate to details.
+- Show movie details such as:
+  - Poster (if available)
+  - Title
+  - Year
+  - Genre
+  - Director
+  - IMDb Rating
+- Book a movie by choosing a date and time.
+
+### 4. Booking Screen
+- Show the information selected in booking.
+- Display a **barcode** for the booked ticket.
+
+---
+
+## 🔹 API Endpoints (TMDB Free API)
+
+- **List Movies**  
